@@ -14,7 +14,7 @@ Installation
 
 2 . Move in and create a `.env.local` file. 
 **This one is not committed to the shared repository.**
-Set `db_name` to **porte-folio**.
+Set `db_name` to **Checkpoint4**.
  
 3 . Execute commands below into your working folder to install the project:
 
@@ -26,7 +26,7 @@ $ php bin/console m:m
 ```
 > Reminder : Don't use composer update to avoid problem
 
-> Assets are directly into *public/* directory, **we will not use** Webpack with this projet 4
+> Assets are directly into *public/* directory, **we will not use** Webpack with this Checkpoint 4
 
 
 Usage
