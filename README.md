@@ -35,7 +35,7 @@ Usage
 Launch the server with command below and follow instructions on homepage `/`;
 
 ```bash
-$ bin/console s:r
+$ php bin/console s:r
 $ php bin/console make:controller
 $ yarn install
 $ yarn run encore dev --watch

@@ -1,0 +1,10 @@
+{% extends "base.html.twig" %}
+
+{% block title %}{% if title_page is defined %}{{ title_page }}{% endif %}{% endblock %}
+
+{% block body %}
+{% include "components/jumbotron.html.twig" %}
+{% include "components/perf.html.twig" %}
+{% include "components/table.html.twig" %}
+
+{% endblock %}
