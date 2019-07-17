@@ -1,0 +1,19 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello PerformancesController!{% endblock %}
+
+{% block body %}
+<style>
+    #perf ul{
+  display:flex;
+  text-align:justify;
+}
+.perfLi{
+  padding:2%;
+  /*border-right:1px solid black;*/
+  list-style-type:none;
+}
+</style>
+{% include "components/jumbotron.html.twig" %}
+{% include "components/perf.html.twig" %}
+{% endblock %}
